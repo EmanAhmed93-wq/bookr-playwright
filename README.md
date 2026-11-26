@@ -43,10 +43,17 @@ npx playwright install chromium
 ```bash
 npx playwright test --project=chromium
 ```
+ 
+ View the HTML test report:
+```bash
+npx playwright show-report 
+```
+
+
 
 ## Project Structure
 
-- `tests/example.spec.ts` – Automated test source code.
+- `tests/Signup_test.spec.ts` – Automated test source code.
 - `playwright.config.ts` – Playwright configuration.
 - `package.json` – Project dependencies.
 - `README.md` – Project documentation.
